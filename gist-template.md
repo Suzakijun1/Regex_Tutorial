@@ -76,6 +76,9 @@ bracket expressions, denoted by `[]`, define a set of characters to match.
 
 ### Greedy and Lazy Match
 
+By default, regular expressions are greedy, meaning they match as much as possible. For example, `.*` would match the longest possible sequence.
+To make a quantifier lazy, you can add a `?` after it. For example, `.*?` would match the shortest possible sequence.
+
 ### Boundaries
 
 ### Back-references
