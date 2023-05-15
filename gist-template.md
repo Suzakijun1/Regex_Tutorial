@@ -56,6 +56,8 @@ The main OR operator used in the regex is `[]`.
 
 ### Flags
 
+Flags are not used in the pattern.
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
