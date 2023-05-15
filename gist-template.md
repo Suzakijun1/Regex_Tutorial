@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex-Tutorial: Matching a URL
 
 Regex, short for Regular Expression, is a sequence of characters that forms a search pattern. It is primarily used for pattern matching and manipulating text strings. In a regular expression, characters can represent themselves or serve as metacharacters with special meanings. By combining these characters and metacharacters, you can create complex patterns to match specific strings or patterns within a larger text. Some common uses for regular expressions include: Pattern matching, string manipulation, text parsing, etc.
 
@@ -101,6 +101,6 @@ Negative look-behind is denoted by `(?<!...)` and asserts that the pattern does 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-
+Dylan Yong, a student at UCF full-stack development bootcamp.
+Here is my github profile link:
 [GitHub Profile](https://github.com/Suzakijun1)
