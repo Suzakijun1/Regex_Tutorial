@@ -60,6 +60,13 @@ Flags are not used in the pattern.
 
 ### Grouping and Capturing
 
+`(` and `)` are used for grouping and capturing subexpressions. In this example, there are four groups:
+`(https?:\/\/)?` matches the protocol part of the URL (e.g., `http://` or `https://`). The `?` makes the preceding group optional.
+`([\da-z\.-]+)` matches the domain name part of the URL. This group captures one or more digits, lowercase letters, dots, or hyphens.
+`\.([a-z\.]{2,6})` match the top-level domain (TLD) part of the URL. This group captures a dot followed by 2 to 6 lowercase letters or dots.
+`([\/\w \.-]*)*` matches the path part of the URL. This group captures zero or more occurrences of forward slash, word characters, spaces, dots, or hyphens. The `*` quantifier allows the group to repeat.
+`\/?` matches an optional trailing forward slash.
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
