@@ -33,6 +33,7 @@ The following gist will break down this regex by its components (anchor, quantif
 
 An anchor is a metacharacter that specifies a position within a string where a match should occur.
 Within the Regex, the symbol `^` is the start of the string.
+Here is the full regex: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
 ### Anchors
 
