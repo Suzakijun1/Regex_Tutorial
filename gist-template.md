@@ -40,7 +40,13 @@ The symbol `$` is the position at the end of the string.
 
 ### Quantifiers
 
+`?` matches the receding element zero or one time.
+`*` matches the preceding element zero or more times.
+`{2,6}` specifies a range for the preceding element (2 to 6 occurrences).
+
 ### OR Operator
+
+The main OR operator used in the regex is `[]`.
 
 ### Character Classes
 
