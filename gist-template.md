@@ -31,16 +31,12 @@ The following gist will break down this regex by its components (anchor, quantif
 
 ## Regex Components
 
+### Anchors
+
 An anchor is a metacharacter that specifies a position within a string where a match should occur.
 Within the Regex, the symbol `^` is the start of the string.
-Here is the full regex:
 
-```
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]_)_\/?$/
-
-```
-
-### Anchors
+The symbol `$` is the position at the end of the string.
 
 ### Quantifiers
 
