@@ -101,6 +101,6 @@ Negative look-behind is denoted by `(?<!...)` and asserts that the pattern does 
 
 ## Author
 
-Dylan Yong, a student at UCF full-stack development bootcamp.
+Dylan Yong, a student at UCF full-stack development bootcamp. <br>
 Here is my github profile link:
 [GitHub Profile](https://github.com/Suzakijun1)
