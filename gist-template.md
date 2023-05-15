@@ -6,8 +6,10 @@ Introductory paragraph (replace this with your text)
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
-````Regex Matching a URL:
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ ```
+```
+Regex Matching a URL:
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+```
 
 ## Table of Contents
 
@@ -52,4 +54,3 @@ Briefly summarize the regex you will be describing and what you will explain. In
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 
 [GitHub Profile](https://github.com/Suzakijun1)
-````
