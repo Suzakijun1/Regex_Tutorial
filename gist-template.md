@@ -31,6 +31,9 @@ The following gist will break down this regex by its components (anchor, quantif
 
 ## Regex Components
 
+An anchor is a metacharacter that specifies a position within a string where a match should occur.
+Within the Regex, the symbol `^` is the start of the string.
+
 ### Anchors
 
 ### Quantifiers
