@@ -69,7 +69,7 @@ Flags are not used in the pattern.
 
 ### Bracket Expressions
 
-bracket expressions, denoted by `[]`, define a set of characters to match.
+bracket expressions, denoted by `[]`, define a set of characters to match. <br>
 `[\da-z\.-]` matches any digit, lowercase letter, dot, or hyphen.
 `[a-z\.]` matches any lowercase letter or dot.
 `[\/\w \.-]` matches a forward slash, word character, space, dot, or hyphen.
