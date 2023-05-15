@@ -81,6 +81,10 @@ To make a quantifier lazy, you can add a `?` after it. For example, `.*?` would 
 
 ### Boundaries
 
+Boundaries are used to match positions rather than specific characters. They include:
+`\b` matches a word boundary (the position between a word character and a non-word character).
+`\B` matches a non-word boundary.
+
 ### Back-references
 
 ### Look-ahead and Look-behind
