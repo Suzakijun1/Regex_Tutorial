@@ -46,7 +46,7 @@ The symbol `$` is the position at the end of the string.
 
 ### OR Operator
 
-The main OR operator used in the regex is `[]`.
+`|` is used to specify alternatives.
 
 ### Character Classes
 
