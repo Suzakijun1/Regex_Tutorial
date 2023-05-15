@@ -1,6 +1,8 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regex, short for Regular Expression, is a sequence of characters that forms a search pattern. It is primarily used for pattern matching and manipulating text strings. In a regular expression, characters can represent themselves or serve as metacharacters with special meanings. By combining these characters and metacharacters, you can create complex patterns to match specific strings or patterns within a larger text. Some common uses for regular expressions include: Pattern matching, string manipulation, text parsing, etc.
+
+The following gist will give a thorough description of the central components in matching a given URL utilizing regular expressions in Javascript.
 
 ## Summary
 
