@@ -51,6 +51,8 @@ The main OR operator used in the regex is `[]`.
 ### Character Classes
 
 `[\da-z\.-]` matches any digit (`\d`), lowercase letter (`a-z`), dot (`.`), or hyphen (`-`).
+`[a-z\.]` matches any lowercase letter (`a-z`) or dot (`.`).
+`[\/\w \.-]` matches a forward slash (`\/`), any word character (`\w`), space (` `), dot (`.`), or hyphen (`-`).
 
 ### Flags
 
