@@ -6,12 +6,14 @@ The following gist will give a thorough description of the central components in
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The following regex can be used in order to validate a URL.
 
 ```
 Regex Matching a URL:
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 ```
+
+The following gist will break down this regex by its components (anchor, quantifies, grouping constructs, bracket expressions, character classes, and character escapes). Each section will have a description, symbol, and where the code is located within the regex.
 
 ## Table of Contents
 
