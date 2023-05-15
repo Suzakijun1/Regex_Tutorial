@@ -33,15 +33,15 @@ The following gist will break down this regex by its components (anchor, quantif
 
 ### Anchors
 
-An anchor is a metacharacter that specifies a position within a string where a match should occur.
+An anchor is a metacharacter that specifies a position within a string where a match should occur. <br>
 Within the Regex, the symbol `^` is the start of the string.
 
 The symbol `$` is the position at the end of the string.
 
 ### Quantifiers
 
-`?` matches the receding element zero or one time.
-`*` matches the preceding element zero or more times.
+`?` matches the receding element zero or one time. <br>
+`*` matches the preceding element zero or more times. <br>
 `{2,6}` specifies a range for the preceding element (2 to 6 occurrences).
 
 ### OR Operator
@@ -50,8 +50,8 @@ The symbol `$` is the position at the end of the string.
 
 ### Character Classes
 
-`[\da-z\.-]` matches any digit (`\d`), lowercase letter (`a-z`), dot (`.`), or hyphen (`-`).
-`[a-z\.]` matches any lowercase letter (`a-z`) or dot (`.`).
+`[\da-z\.-]` matches any digit (`\d`), lowercase letter (`a-z`), dot (`.`), or hyphen (`-`). <br>
+`[a-z\.]` matches any lowercase letter (`a-z`) or dot (`.`). <br>
 `[\/\w \.-]` matches a forward slash (`\/`), any word character (`\w`), space (` `), dot (`.`), or hyphen (`-`).
 
 ### Flags
@@ -60,18 +60,18 @@ Flags are not used in the pattern.
 
 ### Grouping and Capturing
 
-`(` and `)` are used for grouping and capturing subexpressions. In this example, there are four groups:
-`(https?:\/\/)?` matches the protocol part of the URL (e.g., `http://` or `https://`). The `?` makes the preceding group optional.
-`([\da-z\.-]+)` matches the domain name part of the URL. This group captures one or more digits, lowercase letters, dots, or hyphens.
-`\.([a-z\.]{2,6})` match the top-level domain (TLD) part of the URL. This group captures a dot followed by 2 to 6 lowercase letters or dots.
-`([\/\w \.-]*)*` matches the path part of the URL. This group captures zero or more occurrences of forward slash, word characters, spaces, dots, or hyphens. The `*` quantifier allows the group to repeat.
+`(` and `)` are used for grouping and capturing subexpressions. In this example, there are four groups: <br>
+`(https?:\/\/)?` matches the protocol part of the URL (e.g., `http://` or `https://`). The `?` makes the preceding group optional. <br>
+`([\da-z\.-]+)` matches the domain name part of the URL. This group captures one or more digits, lowercase letters, dots, or hyphens. <br>
+`\.([a-z\.]{2,6})` match the top-level domain (TLD) part of the URL. This group captures a dot followed by 2 to 6 lowercase letters or dots. <br>
+`([\/\w \.-]*)*` matches the path part of the URL. This group captures zero or more occurrences of forward slash, word characters, spaces, dots, or hyphens. The `*` quantifier allows the group to repeat. <br>
 `\/?` matches an optional trailing forward slash.
 
 ### Bracket Expressions
 
 bracket expressions, denoted by `[]`, define a set of characters to match. <br>
-`[\da-z\.-]` matches any digit, lowercase letter, dot, or hyphen.
-`[a-z\.]` matches any lowercase letter or dot.
+`[\da-z\.-]` matches any digit, lowercase letter, dot, or hyphen. <br>
+`[a-z\.]` matches any lowercase letter or dot.<br>
 `[\/\w \.-]` matches a forward slash, word character, space, dot, or hyphen.
 
 ### Greedy and Lazy Match
@@ -81,22 +81,22 @@ To make a quantifier lazy, you can add a `?` after it. For example, `.*?` would 
 
 ### Boundaries
 
-Boundaries are used to match positions rather than specific characters. They include:
-`\b` matches a word boundary (the position between a word character and a non-word character).
+Boundaries are used to match positions rather than specific characters. They include: <br>
+`\b` matches a word boundary (the position between a word character and a non-word character). <br>
 `\B` matches a non-word boundary.
 
 ### Back-references
 
-Back-references allow you to refer to previously captured groups within the regex pattern.
-They are denoted by `\` followed by a number (e.g., `\1`, `\2`, etc.) corresponding to the group index.
+Back-references allow you to refer to previously captured groups within the regex pattern. <br>
+They are denoted by `\` followed by a number (e.g., `\1`, `\2`, etc.) corresponding to the group index. <br>
 For example, `(abc)\1` matches "abcabc" since the first captured group is referenced.
 
 ### Look-ahead and Look-behind
 
-Look-ahead and look-behind assertions are used to check if a pattern is followed or preceded by another pattern without including it in the match.
-Look-ahead is denoted by `(?=...)`, where `...` represents the pattern to match ahead.
-Negative look-ahead is denoted by `(?!...)` and asserts that the pattern does not match ahead.
-Look-behind is denoted by `(?<=...)`, where `...` represents the pattern to match behind.
+Look-ahead and look-behind assertions are used to check if a pattern is followed or preceded by another pattern without including it in the match. <br>
+Look-ahead is denoted by `(?=...)`, where `...` represents the pattern to match ahead. <br>
+Negative look-ahead is denoted by `(?!...)` and asserts that the pattern does not match ahead. <br>
+Look-behind is denoted by `(?<=...)`, where `...` represents the pattern to match behind. <br>
 Negative look-behind is denoted by `(?<!...)` and asserts that the pattern does not match behind.
 
 ## Author
@@ -104,7 +104,3 @@ Negative look-behind is denoted by `(?<!...)` and asserts that the pattern does 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 
 [GitHub Profile](https://github.com/Suzakijun1)
-
-```
-
-```
