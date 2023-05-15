@@ -93,6 +93,12 @@ For example, `(abc)\1` matches "abcabc" since the first captured group is refere
 
 ### Look-ahead and Look-behind
 
+Look-ahead and look-behind assertions are used to check if a pattern is followed or preceded by another pattern without including it in the match.
+Look-ahead is denoted by `(?=...)`, where `...` represents the pattern to match ahead.
+Negative look-ahead is denoted by `(?!...)` and asserts that the pattern does not match ahead.
+Look-behind is denoted by `(?<=...)`, where `...` represents the pattern to match behind.
+Negative look-behind is denoted by `(?<!...)` and asserts that the pattern does not match behind.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
