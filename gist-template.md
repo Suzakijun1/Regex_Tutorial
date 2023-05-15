@@ -87,6 +87,10 @@ Boundaries are used to match positions rather than specific characters. They inc
 
 ### Back-references
 
+Back-references allow you to refer to previously captured groups within the regex pattern.
+They are denoted by `\` followed by a number (e.g., `\1`, `\2`, etc.) corresponding to the group index.
+For example, `(abc)\1` matches "abcabc" since the first captured group is referenced.
+
 ### Look-ahead and Look-behind
 
 ## Author
