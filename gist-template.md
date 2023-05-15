@@ -50,6 +50,8 @@ The main OR operator used in the regex is `[]`.
 
 ### Character Classes
 
+`[\da-z\.-]` matches any digit (`\d`), lowercase letter (`a-z`), dot (`.`), or hyphen (`-`).
+
 ### Flags
 
 ### Grouping and Capturing
